@@ -72,8 +72,8 @@ A modern, full-stack AI chat application built with React and Node.js, featuring
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/nova-ai.git
-   cd nova-ai
+   git clone https://github.com/rashidrehan12/NovaAI.git
+   cd NovaAI
    ```
 
 2. **Install Backend Dependencies**
