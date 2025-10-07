@@ -1,0 +1,54 @@
+/* Custom Scrollbar Styles for Nova Theme */
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #3c6e71, #549295);
+  border-radius: 10px;
+  border: 1px solid rgba(60, 110, 113, 0.3);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #549295, #3c6e71);
+  box-shadow: 0 0 10px rgba(84, 146, 149, 0.5);
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #3c6e71 rgba(0, 0, 0, 0.2);
+}
+
+/* Sidebar scrollbar - slightly thinner */
+.sidebar-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #3c6e71, #549295);
+  border-radius: 8px;
+  border: 1px solid rgba(60, 110, 113, 0.2);
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #549295, #3c6e71);
+  box-shadow: 0 0 8px rgba(84, 146, 149, 0.4);
+}
+
+.sidebar-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #3c6e71 rgba(0, 0, 0, 0.1);
+}
